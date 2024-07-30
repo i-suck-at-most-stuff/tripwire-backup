@@ -1,0 +1,169 @@
+head {
+  background-image: url("https://cdn.glitch.global/fcf66f6a-28c7-42fd-93db-701424d419ad/Screenshot%20(23).png?v=1696514913734");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+body {
+  background: #6b7567;
+}
+a {
+  font-weight: bold;
+  color: #a5a799;
+}
+p {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #d4d6c6;
+  text-shadow: 2px 2px #282d26;
+}
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: #d4d6c6;
+  text-shadow: 2px 2px #282d26;
+}
+h2 {
+  font-family: sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: #d4d6c6;
+  text-shadow: 2px 2px #282d26;
+}
+h3 {
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #d4d6c6;
+  text-shadow: 2px 2px #282d26;
+}
+h6 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #d4d6c6;
+  text-shadow: 2px 2px #282d26;
+}
+
+h4 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1px;
+  font-weight: bold;
+  color: #d4d6c6;
+  text-shadow: 2px 2px #282d26;
+}
+br {
+  font-size: 20px;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #d4d6c6;
+  text-shadow: 2px 2px #282d26;
+}
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 250%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #a5a799;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+/* Green */
+.success {
+  border-color: #04aa6d;
+
+  border: 2px solid black;
+  border-radius: 5px;
+
+  padding: 14px 28px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.success:hover {
+  background-color: #04aa6d;
+  color: black;
+}
+.notification {
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+.funnybutton {
+  text-align: center;
+}
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.powerpoint {
+  text-align: center;
+}
